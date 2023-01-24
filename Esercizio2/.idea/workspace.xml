@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a599871-aef9-4c69-a437-dd9be9b7bc7e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/PizzaService/PizzaService.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PizzaService/src/main/java/com/myrestaurant/store/pizzaservice/controller/impl/PizzaControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PizzaService/src/main/java/com/myrestaurant/store/pizzaservice/controller/impl/PizzaControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PizzaService/target/classes/com/myrestaurant/store/pizzaservice/controller/impl/PizzaControllerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/PizzaService/target/classes/com/myrestaurant/store/pizzaservice/controller/impl/PizzaControllerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantService/RestaurantService.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KmHsxrG47T65LSxhMmSBHVxWYg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RestaurantServiceApplication">
+    <configuration name="PizzaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="PizzaService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.myrestaurant.store.pizzaservice.PizzaServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestaurantServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="RestaurantService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.myrestaurant.store.restaurantservice.RestaurantServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a599871-aef9-4c69-a437-dd9be9b7bc7e" name="Changes" comment="" />
+      <created>1674573048902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674573048902</updated>
+      <workItem from="1674573050605" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
