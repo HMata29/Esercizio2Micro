@@ -6,10 +6,13 @@ import com.myrestaurant.store.restaurantservice.mapper.RestaurantMapper;
 import com.myrestaurant.store.restaurantservice.model.Restaurant;
 import com.myrestaurant.store.restaurantservice.service.RestaurantService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
+import java.util.Objects;
 
 @RestController
 @RequestMapping("/restaurants")
@@ -18,7 +21,15 @@ public class RestaurantControllerImpl implements RestaurantController {
     private final RestaurantService restaurantService;
 
     private final RestaurantMapper restaurantMapper;
+    @Value("${app.pizza-service-url}")
+    private String pizzaServiceUrl;
 
+    @Override
+    @GetMapping("/pizzas/{restaurantId}")
+    public List<Object> getPizzasByRestaurantId(@PathVariable("restaurantId")Long restaurantId) {
+        RestTemplate restTemplate = new RestTemplate();
+        return List.of(Objects.requireNonNull(restTemplate.getForObject(pizzaServiceUrl + "/" + restaurantId, Object[].class))); // url   metodo che chiama l'atro micro e cosa riceve(Object)
+    }
 
     @Override
     @PostMapping

@@ -13,6 +13,8 @@ import java.util.List;
 @Api(tags = "pizza API")
 public interface PizzaController {
 
+    @ApiOperation("find by restaurant Id")
+    public List <PizzaDTO> findByRestaurantId(@PathVariable("id") Long restaurantId);
 
     @ApiOperation("Add new Pizza ")
     public PizzaDTO save(@RequestBody PizzaDTO pizzaDTO);

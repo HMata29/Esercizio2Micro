@@ -20,6 +20,12 @@ public class PizzaControllerImpl implements PizzaController {
     private final PizzaMapper pizzaMapper;
 
 
+    @Override
+    @GetMapping("/{restaurantId}")
+    public List<PizzaDTO> findByRestaurantId(@PathVariable ("restaurantId") Long restaurantId) {
+        List <Pizza> pizzas = pizzaService.findByRestaurantId(restaurantId);
+        return pizzaMapper.asDTOList(pizzas);
+    }
 
     @Override
     @PostMapping
