@@ -24,9 +24,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="NotificationService Es4" target="19" />
-      <module name="PizzaService Es4" target="19" />
-      <module name="RestaurantService Es4" target="19" />
+      <module name="NotificationService Es4" target="17" />
+      <module name="PizzaService Es4" target="17" />
+      <module name="RestaurantService Es4" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

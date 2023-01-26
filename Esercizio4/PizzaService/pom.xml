@@ -14,7 +14,7 @@
     <name>PizzaService</name>
     <description>PizzaService</description>
     <properties>
-        <java.version>19</java.version>
+        <java.version>17</java.version>
         <org.mapstruct.version>1.5.3.Final</org.mapstruct.version>
         <org.projectlombok>1.18.24</org.projectlombok>
         <lombok-mapstruct-binding>0.2.0</lombok-mapstruct-binding>
