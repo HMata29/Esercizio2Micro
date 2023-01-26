@@ -1,12 +1,13 @@
-package com.myrestaurant.store.RestaurantService.controller;
+package com.myrestaurant.store.restaurantservice.controller;
 
-import com.myrestaurant.store.RestaurantService.dto.DriverDTO;
+import com.myrestaurant.store.restaurantservice.dto.DriverDTO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
+
 
 @Api(tags = "Driver API")
 public interface DriverController {

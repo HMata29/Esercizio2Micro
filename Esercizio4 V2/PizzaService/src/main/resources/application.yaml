@@ -30,4 +30,9 @@ server:
   servlet:
     context-path: /api
 
+app:
+  rabbitmq:
+    routingkey: q.add-pizzas-to-restaurant  #per asincrona con rabbitmq
+    pizzas-added-routingkey: q.pizzas-added-to-restaurant
+
 

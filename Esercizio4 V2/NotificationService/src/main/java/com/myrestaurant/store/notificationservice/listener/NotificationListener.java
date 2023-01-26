@@ -1,4 +1,4 @@
-package com.myrestaurant.store.notificationservice.listner;
+package com.myrestaurant.store.notificationservice.listener;
 
 import com.myrestaurant.store.notificationservice.service.EmailService;
 import com.myrestaurant.store.notificationservice.service.SMSService;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 @Service
 @Slf4j
 @RequiredArgsConstructor
-public class NotificationListner {
+public class NotificationListener {
 
     private final EmailService emailService;
 

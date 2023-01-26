@@ -29,5 +29,6 @@ app:
   pizza-service-url : http://localhost:9090/api/pizzas/restaurant #per la sincrona
   rabbitmq:
     routingkey: q.add-pizzas-to-restaurant  #per asincrona con rabbitmq
+    pizzas-added-routingkey: q.pizzas-added-to-restaurant
 
 
