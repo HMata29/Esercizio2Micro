@@ -1,0 +1,8 @@
+# Miry
+spring:
+  application:
+    name: PIZZA-SERVICE
+  config:
+    import: optional:configserver:http://localhost:8888/config
+  profiles:
+    active: prod

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: RESTAURANT-SERVICE
+  config:
+    import: optional:configserver:http://localhost:8888/config
+  profiles:
+    active: dev,coll
+  zipkin:
+    base-url: http://localhost:9411
+  main:
+    allow-circular-references: true

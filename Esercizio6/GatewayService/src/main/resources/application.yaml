@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: GATEWAY-SERVICE
+  cloud:
+    gateway:
+      routes:
+        - uri: lb://PIZZA-SERVICE
+          predicates:
+            - Path=/api/pizzas/**, /api/toppings
+        - uri: lb://RESTAURANT-SERVICE
+          predicates:
+            - Path=/api/restaurants/**, /api/drivers/**
+
+ #nel predicato e per dire che deve prendere tutto quello dopo pizzas
+#Per dire quale url registrare(per reperire le url da chiamare per il gateway ai microservizi)
+
+
+server:
+  port: 8080
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
